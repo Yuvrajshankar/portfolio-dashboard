@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+header .workFlow {
+  color: var(--header);
+}
+
+.buttons button {
+  margin-left: 15px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.buttons .sort {
+  background-color: var(--border);
+  border-radius: 10%;
+}
+
+.workflow_search {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  margin-bottom: 15px;
+}
+
+.workflow_search:focus {
+  border-color: var(--header);
+}
