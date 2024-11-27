@@ -27,6 +27,19 @@ function Navbar() {
 
             {isMenuOpen && (
                 <div className={style.menu}>
+
+                    {/* only display when width is less than 600px */}
+                    <div className={style.mobilemenu}>
+                        <div className={style.left}>
+                            <img src={Group} alt="group logo" />
+                            <h3 className={style.logo}>Lease Pixie</h3>
+                        </div>
+                        <div className={style.right}>
+                            <img src={isMenuOpen ? cross : menu} alt={isMenuOpen ? "cross menu" : "menu"} onClick={toggleMenu} />
+                        </div>
+                    </div>
+                    {/*  */}
+
                     <dl>
                         {/* Add Section */}
 

@@ -37,6 +37,7 @@ nav {
   border-radius: 10px;
   width: 300px;
   height: 350px;
+  z-index: 1000;
 }
 
 dl {
@@ -76,4 +77,46 @@ dd:hover {
 .signOut:hover {
   color: var(--header);
   background-color: #fcfcfd;
+}
+
+.mobilemenu {
+  display: none;
+}
+
+/* responsive queries */
+@media (max-width: 600px) {
+  nav {
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: space-between; */
+    padding: 20px;
+  }
+
+  .mobilemenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  .menu {
+    border-radius: 0;
+    position: fixed;
+    justify-content: start;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: none;
+    padding: 30px 20px;
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .signOut {
+    margin-top: auto;
+  }
 }

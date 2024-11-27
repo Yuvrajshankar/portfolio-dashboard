@@ -34,3 +34,10 @@ body {
 .div {
   margin-bottom: 15px;
 }
+
+/* responsive queries */
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+}
