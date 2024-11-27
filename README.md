@@ -1,8 +1,33 @@
-# React + Vite
+# Portfolio-Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Demo
 
-Currently, two official plugins are available:
+[https://leasepixie.netlify.app/](https://leasepixie.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+```bash
+  git clone https://github.com/Yuvrajshankar/portfolio-dashboard.git
+```
+
+2. Go to the project directory
+
+```bash
+  cd portfolio-dashboard
+```
+
+3. Install dependencies
+
+```bash
+  npm install
+```
+
+4. Start the application
+
+```bash
+  npm run dev
+```
